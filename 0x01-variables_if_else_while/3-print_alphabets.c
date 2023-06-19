@@ -1,24 +1,16 @@
 #include <stdio.h>
 /**
- * main - Entery point
- * Description: 'print alphabet in lowercase and uppercase'
- * Return: always 0
+ * main- Entry point
+ * @void: Null value
+ * Description: Print alphabet lowercase
+ * Return: Zero value
  */
 int main(void)
 {
-	int n = 97;
-	int m = 65;
+	char c, b;
 
-	while (n <= 122)
-	{
-		putchar(n);
-		n++;
-	}
-	while (n <= 90)
-	{
-		putchar(m);
-		m++
-	}
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	for (b = 'A'; b <= 'Z'; b++)
+		putchar(b);
 	putchar('\n');
-	return (0);
-}
