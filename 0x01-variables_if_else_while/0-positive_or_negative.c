@@ -2,9 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main -Entry point
- * Disciption: "check for number if it is positive or nigative "
- * Returne: always 0
+ * main - Check if a number.
+ * @void: Null value
+ *
+ * Description: Print if a number is positive, negative or zero
+ * Return: Zero value
  */
 int main(void)
 {
@@ -14,15 +16,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf(" % d is positive\n *, n);
+		printf("%d is positive\n", n);
 	}
-	else if (n == 0)
+	else if (n < 0)
 	{
-		printf(" % d is zero\n *, n);
+		printf("%d is negative\n", n);
 	}
 	else
 	{
-	       printf(" % d is positive\n *, n);
+		printf("%d is zero\n", n);
 	}
-returne (0);
+	return (0);
 }
