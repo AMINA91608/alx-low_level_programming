@@ -1,17 +1,18 @@
 #include <stdio.h>
 /**
- * main - Entry point 
+ * main - Entry point
  * Description: "Print alphabet lowercase"
  * Returne: Always 0
  */
 int main(void)
 {
 	int n = 97;
+
 	while (n <= 122)
 	{
 		putchar(n);
 		n++;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
