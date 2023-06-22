@@ -5,7 +5,6 @@
  * @n: hiyac wlahrt fojnction
  * Return: 0 ila kannt 1 hh
  */
-
 int print_last_digit(int n)
 {
 if (n >= 0)
