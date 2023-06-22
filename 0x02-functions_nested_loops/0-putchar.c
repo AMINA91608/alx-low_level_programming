@@ -1,20 +1,21 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entery piont
- * Description: yeseay
- * Return: Always 0 (success)
+ * main - Entry point
+ * Description: YeseaY
+ * Return: 0 (Success)
  */
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_ putchar('\n');
-	return (0);
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
+
+return (0);
 }
